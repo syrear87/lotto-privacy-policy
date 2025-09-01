@@ -1,24 +1,193 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>롯번기 개인정보처리방침</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>롯번기 - 로또번호 생성기, 당첨확인 | 개인정보처리방침</title>
+
+  <!-- Basic SEO -->
+  <meta name="description" content="롯번기 - 로또번호 생성기, 당첨확인의 개인정보처리방침 페이지입니다." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="롯번기 - 로또번호 생성기, 당첨확인 | 개인정보처리방침" />
+  <meta property="og:description" content="본 앱의 데이터 수집, 이용, 제3자 제공, 보관/파기, 권리 행사 방법 등을 안내합니다." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    :root {
+      --fg: #0b0b0c;
+      --muted: #6b7080;
+      --bg: #ffffff;
+      --card: #ffffff;
+      --border: #e7e8ec;
+      --accent: #3a66ff;
+      --accent-bg: #eef2ff;
+      --code: #0f172a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #eaeaf0;
+        --muted: #a0a5b8;
+        --bg: #0b0b10;
+        --card: #0f1118;
+        --border: #1d2230;
+        --accent: #7aa2ff;
+        --accent-bg: #0d1b3a;
+        --code: #e2e8f0;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Apple SD Gothic Neo, Noto Sans KR, "Malgun Gothic", sans-serif;
+      color: var(--fg); background: var(--bg); line-height: 1.65;
+    }
+    .wrap {
+      max-width: 880px; margin: 0 auto; padding: 32px 20px 80px;
+    }
+    header { margin-bottom: 24px; }
+    h1 {
+      font-size: 28px; margin: 0 0 6px; line-height: 1.25;
+    }
+    .subtitle { color: var(--muted); font-size: 14px; }
+    .card {
+      border: 1px solid var(--border); background: var(--card);
+      border-radius: 14px; padding: 20px; margin: 16px 0 28px;
+    }
+    h2 { font-size: 20px; margin-top: 28px; }
+    h3 { font-size: 16px; margin-top: 24px; }
+    p, li { font-size: 15px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .toc a { display: block; padding: 6px 0; }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--code); }
+    .badge {
+      display: inline-block; font-size: 12px; padding: 4px 8px; border-radius: 999px;
+      background: var(--accent-bg); color: var(--accent); border: 1px solid var(--border);
+      margin-left: 8px;
+    }
+    footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+    .updated { color: var(--muted); font-size: 13px; }
+    .note { border-left: 3px solid var(--accent); background: var(--accent-bg); padding: 12px 14px; border-radius: 8px; }
+  </style>
 </head>
 <body>
-  <h1>롯번기 - 로또번호 생성기, 당첨확인 개인정보처리방침</h1>
-  <p><strong>최종 업데이트:</strong> 2025-09-01</p>
+  <div class="wrap">
+    <header>
+      <h1>개인정보처리방침 <span class="badge">롯번기 - 로또번호 생성기, 당첨확인</span></h1>
+      <div class="subtitle updated">최종 업데이트: 2025-09-01</div>
+      <div class="card toc">
+        <strong>목차</strong>
+        <a href="#intro">소개</a>
+        <a href="#collect">1. 수집하는 정보</a>
+        <a href="#purpose">2. 수집 및 이용 목적</a>
+        <a href="#third">3. 제3자 제공 및 처리위탁</a>
+        <a href="#store">4. 보관 및 파기</a>
+        <a href="#rights">5. 이용자 권리와 행사 방법</a>
+        <a href="#child">6. 아동의 개인정보</a>
+        <a href="#protect">7. 안전성 확보 조치</a>
+        <a href="#contact">8. 문의처</a>
+        <a href="#change">9. 본 방침의 변경</a>
+      </div>
+    </header>
 
-  <h2>1. 수집하는 정보</h2>
-  <p>본 앱은 회원가입 없이 이용 가능합니다. ...</p>
+    <section id="intro">
+      <p>본 개인정보처리방침은 “<strong>롯번기 - 로또번호 생성기, 당첨확인</strong>”(이하 “본 앱”)이 제공하는 서비스 이용과 관련하여, 이용자의 개인정보(또는 개인정보에 해당하지 않는 정보 포함)의 수집, 이용, 제3자 제공, 보관 및 파기에 관한 사항을 규정합니다.</p>
+      <p class="note">본 앱은 회원가입 없이 이용 가능하며, 사용자가 생성·저장한 로또 번호 및 메모 등은 <strong>기기 내 로컬 저장소</strong>(SharedPreferences)에만 저장되고 서버로 전송되지 않습니다.</p>
+    </section>
 
-  <h2>2. 수집 목적</h2>
-  <p>광고 제공, 성과 측정, 서비스 유지·개선...</p>
+    <section id="collect">
+      <h2>1. 수집하는 정보</h2>
+      <h3>① 직접 수집</h3>
+      <p>해당 사항 없음 — 본 앱은 회원가입, 서버 업로드, 클라우드 동기화를 제공하지 않습니다.</p>
 
-  <h2>3. 제3자 제공 및 처리위탁</h2>
-  <p>Google AdMob 사용...</p>
+      <h3>② 자동/간접 수집</h3>
+      <ul>
+        <li><strong>광고 식별자</strong>(AAID/IDFA 등): Google AdMob SDK를 통해 광고 제공 및 성과 측정을 위하여 수집/이용될 수 있습니다.</li>
+        <li><strong>광고 관련 사용 데이터</strong>: 광고 노출, 클릭, 앱 버전, 기기 정보 등은 AdMob 등 제3자에 의해 수집될 수 있습니다.</li>
+      </ul>
 
-  <h2>8. 연락처</h2>
-  <p>문의 이메일: your-email@example.com</p>
+      <h3>③ 로컬 저장(서버 전송 없음)</h3>
+      <ul>
+        <li><strong>저장한 로또 번호, 메모, 생성 이력</strong> 등: 오직 기기 내 SharedPreferences에 저장됩니다.</li>
+      </ul>
+    </section>
 
+    <section id="purpose">
+      <h2>2. 수집 및 이용 목적</h2>
+      <ul>
+        <li><strong>광고 제공 및 성과 측정</strong>: 광고 노출 최적화, 부정행위 방지, 통계 분석.</li>
+        <li><strong>서비스 유지·개선</strong>: 오류 진단, 품질 향상 등(주로 제3자 SDK 통계를 통해 파악).</li>
+        <li><strong>사용자 편의</strong>: 저장한 번호/메모의 기기 내 보관 및 관리.</li>
+      </ul>
+    </section>
+
+    <section id="third">
+      <h2>3. 제3자 제공 및 처리위탁</h2>
+      <p>본 앱은 광고 기능 제공을 위해 <strong>Google AdMob</strong>(Google LLC)을 사용합니다. AdMob 및 Google의 개인정보 처리에 관한 자세한 내용은 Google의 공식 정책을 참고하시기 바랍니다.</p>
+      <ul>
+        <li>Google 개인정보처리방침: <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">https://policies.google.com/privacy?hl=ko</a></li>
+        <li>Google AdMob 정책: <a href="https://support.google.com/admob/answer/6128543?hl=ko" target="_blank" rel="noopener">https://support.google.com/admob/answer/6128543?hl=ko</a></li>
+      </ul>
+      <p>법령에 특별한 규정이 있는 경우를 제외하고, 이용자의 개인정보를 임의로 판매하거나 공유하지 않습니다.</p>
+    </section>
+
+    <section id="store">
+      <h2>4. 보관 및 파기</h2>
+      <ul>
+        <li><strong>로컬 저장 데이터</strong>는 사용자가 앱을 삭제하거나, 앱 내 초기화(데이터 삭제) 시 기기에서 제거됩니다.</li>
+        <li><strong>제3자 수집 데이터</strong>(예: AdMob)는 해당 사업자의 보관·파기 정책을 따릅니다.</li>
+      </ul>
+    </section>
+
+    <section id="rights">
+      <h2>5. 이용자 권리와 행사 방법</h2>
+      <ul>
+        <li><strong>로컬 데이터 삭제</strong>: 앱 내 삭제/초기화 기능 또는 기기 설정에서 앱 데이터 삭제로 가능합니다.</li>
+        <li><strong>개인맞춤 광고 제한/무효화</strong>:
+          <ul>
+            <li>Android: <em>설정 &gt; Google &gt; 광고</em>에서 광고 맞춤 설정 제어</li>
+            <li>iOS: <em>설정 &gt; 개인정보 보호 &gt; 추적</em>에서 앱의 추적 허용/차단 제어</li>
+          </ul>
+        </li>
+        <li><strong>제3자 수집 데이터</strong>에 대한 열람·삭제·이의 제기는 해당 사업자의 절차를 따릅니다(예: Google).</li>
+      </ul>
+    </section>
+
+    <section id="child">
+      <h2>6. 아동의 개인정보</h2>
+      <p>본 앱은 아동을 주요 대상으로 하지 않으며, 아동을 위한 맞춤 광고를 설정하지 않습니다. 관할 지역의 관련 법령(예: COPPA, GDPR-K 등)에 따른 아동 보호 기준을 준수합니다.</p>
+    </section>
+
+    <section id="protect">
+      <h2>7. 안전성 확보 조치</h2>
+      <ul>
+        <li><strong>최소 수집 원칙</strong>: 서버로의 개인정보 전송 없이, 가능한 한 로컬 저장 위주로 동작합니다.</li>
+        <li><strong>신뢰 가능한 SDK 사용</strong>: 검증된 제3자 SDK(AdMob)만 사용하며, 정책을 준수합니다.</li>
+        <li><strong>접근 통제</strong>: 앱 내 민감 데이터 저장을 지양하고, 필요한 범위 내 설정 권한만 요청합니다.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>8. 문의처</h2>
+      <p>본 개인정보처리방침 또는 개인정보 보호 관련 문의는 아래로 연락해 주세요.</p>
+      <p><strong>이메일:</strong> <a href="mailto:syrear87@gmail.com">syrear87@gmail.com</a></p>
+      <p class="note">스토어 심사용으로 실제 수신 가능한 이메일 주소로 교체해 주세요.</p>
+    </section>
+
+    <section id="change">
+      <h2>9. 본 방침의 변경</h2>
+      <p>관련 법령, 서비스 내용, 제3자 SDK 정책의 변경에 따라 본 방침이 수정될 수 있으며, 변경사항은 본 페이지에 게시하고 <span class="updated">“최종 업데이트”</span> 일자를 갱신합니다.</p>
+    </section>
+
+    <footer>
+      © <span id="y"></span> 롯번기 - 로또번호 생성기, 당첨확인
+    </footer>
+  </div>
+
+  <script>
+    // 하단 연도 자동 표시
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
